@@ -1,0 +1,2 @@
+robot_pose_ekf
+-DCATKIN_DEVEL_PREFIX=/home/mima/project/some/src/robot_pose_ekf/devel -DCMAKE_INSTALL_PREFIX=/home/mima/project/some/src/robot_pose_ekf/install -G Unix Makefiles

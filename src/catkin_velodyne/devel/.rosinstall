@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mima/catkin_velodyne/devel/setup.sh

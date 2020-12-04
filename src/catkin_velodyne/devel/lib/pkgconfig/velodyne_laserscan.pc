@@ -1,0 +1,8 @@
+prefix=/home/mima/catkin_velodyne/devel
+
+Name: velodyne_laserscan
+Description: Description of velodyne_laserscan
+Version: 1.6.0
+Cflags: -I/home/mima/catkin_velodyne/devel/include
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs

@@ -1,0 +1,2 @@
+catkin_velodyne/src/velodyne/velodyne:catkin_velodyne/src/velodyne/velodyne_driver:catkin_velodyne/src/velodyne/velodyne_laserscan:catkin_velodyne/src/velodyne/velodyne_msgs:catkin_velodyne/src/velodyne/velodyne_pcl:catkin_velodyne/src/velodyne/velodyne_pointcloud:hdl_graph_slam:mid/map/octomap:mid/slam/ros_slam:modules/px4_command:ndt_omp:odom2mavros:robot_pose_ekf/src/robot_pose_ekf:simulation:sup/path_planning/ros_navigation
+-DCATKIN_DEVEL_PREFIX=/home/mima/project/some/devel -DCMAKE_INSTALL_PREFIX=/home/mima/project/some/install -G Unix Makefiles

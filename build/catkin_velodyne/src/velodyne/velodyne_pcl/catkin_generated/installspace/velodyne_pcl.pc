@@ -1,0 +1,8 @@
+prefix=/home/mima/project/some/install
+
+Name: velodyne_pcl
+Description: Description of velodyne_pcl
+Version: 1.6.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: pcl_ros

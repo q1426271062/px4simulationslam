@@ -1,0 +1,21 @@
+<launch> 
+	<!-- 世界 -->
+  <arg name="world_path" default="$(find simulation)/worlds/classroom.world" />
+	<!-- 3dlidar-rover -->
+  <include file="$(find simulation)/launch/px4/z3Dlidar_px4_rover.launch">
+    <arg name="world_path" value="$(arg world_path)" />
+  </include>
+
+	<!-- 建图(find package-name) -->
+  <include file="$(find lego_loam)/launch/run.launch">
+  </include>
+	
+	
+	<!-- 键盘控制 -->
+	<node pkg="simulation" type="rover_keyboard_control_px4.py" name="keyboard_control_px4" output="screen" launch-prefix="gnome-terminal --tab -e">
+    </node>
+
+   
+
+</launch>
+

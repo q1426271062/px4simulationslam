@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mima/project/some/src/robot_pose_ekf/install/setup.sh

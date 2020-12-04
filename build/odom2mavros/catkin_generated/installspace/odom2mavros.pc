@@ -1,0 +1,8 @@
+prefix=/home/mima/project/some/install
+
+Name: odom2mavros
+Description: Description of odom2mavros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

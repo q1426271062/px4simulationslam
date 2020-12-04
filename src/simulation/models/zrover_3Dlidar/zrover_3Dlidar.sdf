@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='zrover_3Dlidar'>
+
+    <include>
+      <uri>model://rover</uri>
+    </include> 
+
+    <include>
+      <uri>model://3Dlidar_16</uri>
+      <pose>0 0 2 0 0 0</pose>
+    </include>
+
+    <joint name="3Dlidar_VLP16_joint" type="fixed">
+      <child>3Dlidar_16::link</child>
+     <!-- write amov_car no use,maybe try write rover -->
+      <parent>rover::base_link</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <upper>0</upper>
+          <lower>0</lower>
+        </limit>
+      </axis>
+    </joint>
+
+  </model>
+</sdf>
+<!-- vim: set noet fenc=utf-8 ff=unix sts=0 sw=4 ts=4 : -->
+
